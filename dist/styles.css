@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
 }
-.footer {
+#footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,17 +13,47 @@ body {
     
 }
 
-.githubImg {
+#githubImg {
     width: 30px;
 }
 
-.header {
+#header {
     display: flex;
     flex-direction: column;
 }
 
-.pages {
+#headerText {
+    align-self: center;
+    font-size: 50px;
+}
+
+#pages {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+    font-size: 25px;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 10px;
+    /* width: 100%; */
+}
+
+#pages > * {
+    margin: 10px;
+}
+/* .content {
+    display: flex;
+    justify-content: center;
+} */
+
+/* #headerText {
+    background-color: aquamarine;
+} */
+
+
+#center {
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
 }
