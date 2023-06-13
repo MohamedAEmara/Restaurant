@@ -51,7 +51,7 @@ footer.setAttribute('id', 'footer');
 githubImg.setAttribute('id', 'githubImg');
 footerText.setAttribute('id', 'footerText');
 
-githubImg.src = "/dist/img/github.jpg";
+githubImg.src = "../dist/img/github.jpg";
 
 pages.appendChild(one);
 pages.appendChild(two);
@@ -107,7 +107,7 @@ function showHome() {
     line1.innerHTML = "Best pizza in your country"
     line2.innerHTML = "Made with passion since 2023";
     line3.innerHTML = "Order online or visit us!";
-    chef.src = "/dist/img/chef.jpg";
+    chef.src = "../dist/img/chef.jpg";
 
     center.appendChild(line1);
     center.appendChild(line2);
@@ -228,11 +228,11 @@ function showMenu() {
     center.appendChild(pepperoni);
     center.appendChild(bbqPoppers);
 
-    bbqPoppersImg.src = "/dist/img/bbq.jpg";
-    smashImg.src = "/dist/img/smash.jpg";
-    pepperoniImg.src = "/dist/img/pepperoni.jpg";
-    originalChickenImg.src = "/dist/img/chicken.jpg";
-    meatShawrmaImg.src = "/dist/img/shawerma.jpg";
+    bbqPoppersImg.src = "../dist/img/bbq.jpg";
+    smashImg.src = "../dist/img/smash.jpg";
+    pepperoniImg.src = "../dist/img/pepperoni.jpg";
+    originalChickenImg.src = "../dist/img/chicken.jpg";
+    meatShawrmaImg.src = "../dist/img/shawerma.jpg";
 
     bbqPoppersImg.classList.add('food');
     smashImg.classList.add('food');
@@ -283,9 +283,9 @@ function showContacts() {
     phoneText.innerHTML = "011 2222 333";
     mailText.innerHTML = "contact@tastyrest.com";
 
-    addressIcon.src = "/dist/img/add.png";
-    phoneIcon.src = "/dist/img/phone.png";
-    mailIcon.src = "/dist/img/email.png";
+    addressIcon.src = "../dist/img/add.png";
+    phoneIcon.src = "../dist/img/phone.png";
+    mailIcon.src = "../dist/img/email.png";
 
     address.appendChild(addressIcon);
     address.appendChild(addressText);
