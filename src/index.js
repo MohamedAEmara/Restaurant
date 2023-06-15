@@ -105,9 +105,10 @@ function showHome() {
 
     chef.setAttribute('id', 'chef');
     line1.innerHTML = "Best pizza in your country"
-    line2.innerHTML = "Made with passion since 2023";
+    line2.innerHTML = "Made with Love since 2023";
     line3.innerHTML = "Order online or visit us!";
     chef.src = "../dist/img/chef.jpg";
+
 
     center.appendChild(line1);
     center.appendChild(line2);
@@ -220,13 +221,13 @@ function showMenu() {
     }
     // center.appendChild(menuTab);
 
-    center.appendChild(originalChicken);
-    center.appendChild(smash);
     center.appendChild(meatShawrma);
+    center.appendChild(originalChicken);
     // center.appendChild(boxOffer);
     // center.appendChild(familyBox);
     center.appendChild(pepperoni);
     center.appendChild(bbqPoppers);
+    center.appendChild(smash);
 
     bbqPoppersImg.src = "../dist/img/bbq.jpg";
     smashImg.src = "../dist/img/smash.jpg";
@@ -261,8 +262,8 @@ function showMenu() {
 
     three.classList.remove('active');
     one.classList.remove('active');
-    two.classList.add('active');
     center.classList.add('menu');
+    two.classList.add('active');
 }
 
 function showContacts() {
@@ -314,9 +315,10 @@ function showContacts() {
     center.appendChild(address);
     center.appendChild(phone);
     center.appendChild(mail);
+
     one.classList.remove('active');
     two.classList.remove('active');
-    center.classList.remove('menu');
+    center.classList.add('contacts');
     three.classList.add('active');
 }
 
