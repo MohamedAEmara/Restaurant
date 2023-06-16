@@ -235,8 +235,8 @@ function showMenu() {
     center.appendChild(bbqPoppers);
     center.appendChild(smash);
 
-    bbqPoppersImg.src = "../dist/img/bbq.jpg";
-    smashImg.src = "../dist/img/smash.jpg";
+    bbqPoppersImg.src = "/dist/img/bbq.jpg";
+    smashImg.src = "dist/img/smash.jpg";
     pepperoniImg.src = "../dist/img/pepperoni.jpg";
     originalChickenImg.src = "../dist/img/chicken.jpg";
     meatShawrmaImg.src = "../dist/img/shawerma.jpg";
