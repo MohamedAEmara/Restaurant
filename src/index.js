@@ -292,7 +292,7 @@ function showContacts() {
 
     addressIcon.src = "../../dist/img/add.png";
     phoneIcon.src = "../img/phone.png";
-    mailIcon.src = "../dist/img/email.png";
+    mailIcon.src = "dist/img/email.png";
 
     address.appendChild(addressIcon);
     address.appendChild(addressText);
