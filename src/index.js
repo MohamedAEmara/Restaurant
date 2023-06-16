@@ -290,9 +290,9 @@ function showContacts() {
     phoneText.innerHTML = "011 2222 333";
     mailText.innerHTML = "contact@sakalance.com";
 
-    addressIcon.src = "../dist/img/add.png";
-    phoneIcon.src = "../dist/img/phone.png";
-    mailIcon.src = "../dist/img/email.png";
+    addressIcon.src = "img/add.png";
+    phoneIcon.src = "img/phone.png";
+    mailIcon.src = "img/email.png";
 
     address.appendChild(addressIcon);
     address.appendChild(addressText);
