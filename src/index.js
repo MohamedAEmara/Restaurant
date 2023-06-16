@@ -19,6 +19,11 @@ const three = document.createElement('div');
 const footer = document.createElement('div');
 const footerText = document.createElement('div');
 const githubImg = document.createElement('img');
+const link = document.createElement('a');
+
+link.classList.add('github');
+link.setAttribute('href', 'https://github.com/mohamedaemara/')
+link.appendChild(githubImg);
 
 // one.classList.add('page');
 // two.classList.add('page');
@@ -58,13 +63,14 @@ pages.appendChild(two);
 pages.appendChild(three);
 
 footer.appendChild(footerText);
-footer.appendChild(githubImg);
+// footer.appendChild(githubImg);
+footer.appendChild(link);
 
 header.appendChild(headerText);
 header.appendChild(pages);
 content.appendChild(header);
 content.appendChild(center);
-footer.appendChild(githubImg);
+footer.appendChild(link);
 content.appendChild(footer)
 
 console.log('end of index.js');
@@ -79,7 +85,7 @@ three.innerHTML = "Contacts";
 console.log('end of index.js');
 
 
-footerText.innerHTML = "All Rights Reserved © Mohamed Emara 2023 "
+footerText.innerHTML = "All Rights Reserved © Mohamed Emara"
 
 headerText.innerHTML = "Sakalanse Restaurant";
 
@@ -104,8 +110,8 @@ function showHome() {
     const line3 = document.createElement('div');
 
     chef.setAttribute('id', 'chef');
-    line1.innerHTML = "Best pizza in your country"
-    line2.innerHTML = "Made with Love since 2023";
+    line1.innerHTML = "Best in the world"
+    line2.innerHTML = "Made with love since Ages";
     line3.innerHTML = "Order online or visit us!";
     chef.src = "../dist/img/chef.jpg";
 
@@ -282,7 +288,7 @@ function showContacts() {
     
     addressText.innerHTML = "Cairo, Egypt";
     phoneText.innerHTML = "011 2222 333";
-    mailText.innerHTML = "contact@tastyrest.com";
+    mailText.innerHTML = "contact@sakalance.com";
 
     addressIcon.src = "../dist/img/add.png";
     phoneIcon.src = "../dist/img/phone.png";
