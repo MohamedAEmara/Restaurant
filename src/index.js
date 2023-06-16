@@ -291,8 +291,8 @@ function showContacts() {
     mailText.innerHTML = "contact@sakalance.com";
 
     addressIcon.src = "../../dist/img/add.png";
-    phoneIcon.src = "img/phone.png";
-    mailIcon.src = "img/email.png";
+    phoneIcon.src = "../img/phone.png";
+    mailIcon.src = "../dist/img/email.png";
 
     address.appendChild(addressIcon);
     address.appendChild(addressText);
