@@ -307,3 +307,78 @@ img {
     /* background-color: rgb(0, 0, 0, 0.5); */
 }
 
+body {
+    background-image: url(./img/image.png);
+    /* background-repeat: no-repeat; */
+    /* filter: blur(); */
+    /* backdrop-filter: blur(10px); */
+    /* background-size: auto 100%; */
+    /* background-size: */
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+#pages {
+    font-size: 130%;
+}
+
+#header > div:first-child {
+    font-size: 300%;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    font-size: 1.1em;
+}
+
+#footer > a {
+    /* border-radius: 20px; */
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#footer > * > img {
+    border-radius: 20px;
+}
+
+#chef {
+    width: 40%;
+}
+
+div.card { 
+    padding: 15px;
+    border-radius: 20px;
+}
+
+div.card:hover {
+    background-color: rgb(0, 0, 0, 0.4);
+    /* background-color: red; */
+    /* color: red; */
+}
+
+div#center.contacts {
+    text-align: center;
+}
+
+#header > div:first-child {
+    font-size: 4em;
+    font-size: 45px;
+    /* font-size: 20px; */
+}
+
+#pages > * {
+    padding-bottom: 10px;
+    /* margin: 0px; */
+}
+
+#header > div:first-child {
+    padding-top: 8px;
+}
+
