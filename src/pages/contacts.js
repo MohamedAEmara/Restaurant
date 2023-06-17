@@ -2,14 +2,6 @@ import addImg from "../assets/add.png";
 import phoneImg from "../assets/phone.png";
 import mailImg from "../assets/email.png";
 
-// const content = document.getElementById('content');
-
-
-// const header = document.createElement('div');
-// const headerText = document.createElement('div');
-// const pages = document.createElement('div');
-
-
 
 export default function showContacts() {
     const address = document.createElement('div');
@@ -54,7 +46,6 @@ export default function showContacts() {
 
     while(center.hasChildNodes()) {
         center.firstChild.remove();
-        console.log("in while");
     }
     
     center.appendChild(address);
@@ -65,7 +56,6 @@ export default function showContacts() {
     two.classList.remove('active');
     center.classList.add('contacts');
     three.classList.add('active');
-    console.log("end of file");
 }
 
 

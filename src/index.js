@@ -4,19 +4,13 @@ import MenuPage from "./pages/menu.js";
 import HomePage from "./pages/home.js";
 import githubImgg from "./assets/github.jpg";
 
-console.log(`I'm from src/index.js`);
 
-console.log('end of index.js');
-console.log('end of index.js');
- 
 const content = document.getElementById('content');
-
-
 const header = document.createElement('div');
 const headerText = document.createElement('div');
 const pages = document.createElement('div');
-const center = document.createElement('div');
 
+const center = document.createElement('div');
 const one = document.createElement('div');
 const two = document.createElement('div');
 const three = document.createElement('div');
@@ -47,14 +41,11 @@ footer.setAttribute('id', 'footer');
 githubImg.setAttribute('id', 'githubImg');
 footerText.setAttribute('id', 'footerText');
 
-// githubImg.src = "../dist/img/github.jpg";
-
 pages.appendChild(one);
 pages.appendChild(two);
 pages.appendChild(three);
 
 footer.appendChild(footerText);
-// footer.appendChild(githubImg);
 footer.appendChild(link);
 
 header.appendChild(headerText);
@@ -66,15 +57,12 @@ content.appendChild(footer)
 
 console.log('end of index.js');
 
-
-
 one.innerHTML = "Home";
 two.innerHTML = "Menu";
 three.innerHTML = "Contacts";
 
 
 console.log('end of index.js');
-
 
 footerText.innerHTML = "All Rights Reserved © Mohamed Emara"
 

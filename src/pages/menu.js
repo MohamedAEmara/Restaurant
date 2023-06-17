@@ -104,12 +104,10 @@ export default function showMenu() {
     while(center.hasChildNodes()) {
         center.firstChild.remove();
     }
-    // center.appendChild(menuTab);
 
     center.appendChild(meatShawrma);
     center.appendChild(originalChicken);
-    // center.appendChild(boxOffer);
-    // center.appendChild(familyBox);
+
     center.appendChild(pepperoni);
     center.appendChild(bbqPoppers);
     center.appendChild(smash);

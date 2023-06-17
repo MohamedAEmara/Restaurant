@@ -9,7 +9,6 @@ export default function showHome() {
     while(center.hasChildNodes()) {
         center.firstChild.remove();
     }
-    // center.appendChild(homeTab);
 
     const line1 = document.createElement('div');
     const line2 = document.createElement('div');

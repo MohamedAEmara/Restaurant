@@ -34,13 +34,6 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     font-family: regular;
-    /* background-image: url('img/image.png'); */
-    background-color: linear-gradient(black,white);
-    /* background-position:center; */
-    /* background-repeat: no-repeat; */
-    /* background-attachment: auto; */
-    /* background-size: 100%; */
-    background-position: center;
 }
 
 
@@ -71,11 +64,8 @@ body {
 
 #headerText {
     align-self: center;
-    /* font-size: 50px; */
     font-family: dancingBold;
     font-size: 60px;
-    /* filter: blur(2px); */
-    /* background: alpha(var(--color-black), 0.6); */
 }
 
 #pages {
@@ -89,30 +79,16 @@ body {
     margin: 10px;
     margin: 0;
     padding: 0;
-    /* width: 100%; */
 }
 
 #one, #two, #three {
-    
-    /* background-color: gainsboro;
-    padding-left: 10%;
-    padding-right: 10%;
-    /* padding-top: 40px; */
+
     padding-top: 3%;
     padding-bottom: 3%;
-    /* padding-bottom: 40px;  */
     width: 33%;
     text-align: center;
 
 }
-/* .content {
-    display: flex;
-    justify-content: center;
-} */
-
-/* #headerText {
-    background-color: aquamarine;
-} */
 
 
 #center {
@@ -125,7 +101,6 @@ body {
     gap: 1em;
     margin: 40px;
     padding: 20px;
-    /* margin: 10px; */
     font-size: 20px;
     font-size: 1.4em;
 }
@@ -145,7 +120,6 @@ body {
 
 #address, #mail, #phone {
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: flex-start;
     justify-content: center;
@@ -157,19 +131,13 @@ body {
 }
 
 #one.active, #two.active, #three.active {
-    
-    /* background-color: rgb(255, 220, 220); */
     border-bottom: 3px solid white ;
     
 }
 
 
 img.food {
-    width: 280px;
-    width: 15em;
-    width: 70%;
-    /* min-width: 90%; */
-    /* width: 200%; */
+
     width: 10rem;
     border-radius: 10%;
 }
@@ -185,11 +153,7 @@ div.card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* width: 50%; */
     width: 20rem;
-    /* border: 1px solid red; */
-    /* height: 100%; */
-    /* max-width: 30%; */
 }
 
 div.text {
@@ -210,26 +174,13 @@ div.text {
 
 #one, #two, #three {
     width: 100%;
-    /* transition: 4s; */
     transition: transform 400ms;    
 }
 
 #one:hover, #two:hover, #three:hover {
-    /* position: relative;  */
-    /* top: -15px; */
     transform: translateY(-15px);
-    /* transition: 1s; */
-    /* transition-delay:4s; */
-    /* transition: transform 500ms;     */
-
-
 }
 
-
-div.card {
-    /* width: 50%; */
-    /* padding: 10px; */
-}
 
 
 div.text {
@@ -241,54 +192,16 @@ div.text {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* flex-direction: column; */
 }
-
-
-#center img {
-    /* background-color: black; */
-    /* position: absolute; */
-    /* filter: opacity(1); */
-
-    /* opacity: 1; */
-}
-
-/* #center {
-    position: relative;
-    filter: opacity(0.7);
-}
-
-img {
-    filter: opacity(1);
-} */
-
-
-/* #chef {
-    filter: opacity(100%);
-}
- */
-
-
-
-/* #one.active, #two.active, #three.active {
-    background-color: rgb(0, 0, 0, 0.8);
-    
-} */
-
 
 #center.menu, #center.home, #center.contacts {
     background-color: rgb(0, 0, 0, 0.5);
 }
 
-#center.active {
-    /* background-color: red; */
-}
 
 #pages {
     display: flex;
-    justify-content: flex-end;
-    /* max-width: 40%; */
-    
+    justify-content: flex-end;    
     align-items: center;
     text-align: center;
     margin-right: 20%;
@@ -304,18 +217,8 @@ img {
     color: white;
 }
 
-#center.active {
-    /* background-color: rgb(0, 0, 0, 0.5); */
-}
-
 body {
     background-image: url(./assets/background.jpg);
-    /* background-repeat: no-repeat; */
-    /* filter: blur(); */
-    /* backdrop-filter: blur(10px); */
-    /* background-size: auto 100%; */
-    /* background-size: */
-    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -339,7 +242,6 @@ body {
 }
 
 #footer > a {
-    /* border-radius: 20px; */
     margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -360,8 +262,6 @@ div.card {
 
 div.card:hover {
     background-color: rgb(0, 0, 0, 0.4);
-    /* background-color: red; */
-    /* color: red; */
 }
 
 div#center.contacts {
@@ -371,12 +271,10 @@ div#center.contacts {
 #header > div:first-child {
     font-size: 4em;
     font-size: 45px;
-    /* font-size: 20px; */
 }
 
 #pages > * {
     padding-bottom: 10px;
-    /* margin: 0px; */
 }
 
 #header > div:first-child {
