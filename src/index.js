@@ -56,7 +56,7 @@ footer.setAttribute('id', 'footer');
 githubImg.setAttribute('id', 'githubImg');
 footerText.setAttribute('id', 'footerText');
 
-githubImg.src = "../dist/img/github.jpg";
+githubImg.src = "../src/img/github.jpg";
 
 pages.appendChild(one);
 pages.appendChild(two);
@@ -113,7 +113,7 @@ function showHome() {
     line1.innerHTML = "Best in the world"
     line2.innerHTML = "Made with love since Ages";
     line3.innerHTML = "Order online or visit us!";
-    chef.src = "../dist/img/chef.jpg";
+    chef.src = "../src/img/chef.jpg";
 
 
     center.appendChild(line1);
@@ -235,11 +235,11 @@ function showMenu() {
     center.appendChild(bbqPoppers);
     center.appendChild(smash);
 
-    bbqPoppersImg.src = "/dist/img/bbq.jpg";
-    smashImg.src = "dist/img/smash.jpg";
-    pepperoniImg.src = "../dist/img/pepperoni.jpg";
-    originalChickenImg.src = "../dist/img/chicken.jpg";
-    meatShawrmaImg.src = "../dist/img/shawerma.jpg";
+    bbqPoppersImg.src = "../src/img/bbq.jpg";
+    smashImg.src = "../src/img/smash.jpg";
+    pepperoniImg.src = "../src/img/pepperoni.jpg";
+    originalChickenImg.src = "../src/img/chicken.jpg";
+    meatShawrmaImg.src = "../src/img/shawerma.jpg";
 
     bbqPoppersImg.classList.add('food');
     smashImg.classList.add('food');
@@ -290,9 +290,9 @@ function showContacts() {
     phoneText.innerHTML = "011 2222 333";
     mailText.innerHTML = "contact@sakalance.com";
 
-    addressIcon.src = "../../dist/img/add.png";
-    phoneIcon.src = "../img/phone.png";
-    mailIcon.src = "dist/img/email.png";
+    addressIcon.src = "../src/img/add.png";
+    phoneIcon.src = "../src/img/phone.png";
+    mailIcon.src = "../src/img/email.png";
 
     address.appendChild(addressIcon);
     address.appendChild(addressText);
