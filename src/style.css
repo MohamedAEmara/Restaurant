@@ -1,31 +1,31 @@
 @font-face {
     font-family: "Railway";
-    src: url("font/Raleway-VariableFont_wght.ttf");
+    src: url("./font/Raleway-VariableFont_wght.ttf");
 }
 
 @font-face {
     font-family: "regular";
-    src: url("font/Khula-Regular.ttf");
+    src: url("./font/Khula-Regular.ttf");
 }
 
 @font-face {
     font-family: "bold";
-    src: url("font/Khula-Bold.ttf");
+    src: url("./font/Khula-Bold.ttf");
 }
 
 @font-face {
     font-family: "light";
-    src: url("font/Khula-Light.ttf");
+    src: url("./font/Khula-Light.ttf");
 }
 
 @font-face {
     font-family: "semi";
-    src: url("font/Khula-SemiBold.ttf");
+    src: url("./font/Khula-SemiBold.ttf");
 }
 
 @font-face {
     font-family: "dancingBold";
-    src: url("font/DancingScript-Bold.ttf")
+    src: url("./font/DancingScript-Bold.ttf")
 }
 
 
@@ -309,7 +309,7 @@ img {
 }
 
 body {
-    background-image: url(./img/image.png);
+    background-image: url(./assets/background.jpg);
     /* background-repeat: no-repeat; */
     /* filter: blur(); */
     /* backdrop-filter: blur(10px); */
@@ -382,4 +382,5 @@ div#center.contacts {
 #header > div:first-child {
     padding-top: 8px;
 }
+
 
